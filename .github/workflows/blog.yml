@@ -40,7 +40,7 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
 
       - name: Install & Build
-        run: yarn docs:build
+        run: yarn && yarn docs:build
 
       - name: Deploy to Github Pages
         uses: crazy-max/ghaction-github-pages@v3
