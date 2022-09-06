@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: /public/jiayu.jpg
-heroText: Hero 标题
-tagline: Hero 副标题
-actionText: 快速上手 →
+heroText: 嘉宇的前端知识库
+tagline: 随便看看吧~
+actionText: 玩耍一下 →
 actionLink: /vue/
 features:
 - title: 简洁至上

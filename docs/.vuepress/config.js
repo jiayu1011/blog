@@ -9,7 +9,14 @@ module.exports = {
         sidebarDepth: 2,
         lastUpdated: '上一次更新: ',
         nav: [
-            { text: '导引', link: '/guide/' },
+            {
+                text: '导引',
+                link: '/guide/'
+            },
+            {
+                text: 'Vue',
+                link: '/vue/'
+            },
             {
                 text: 'GitHub',
                 items: [
@@ -19,24 +26,16 @@ module.exports = {
         ],
         // sidebar: {
         //     '/vue/': [
-        //         '/vue/',
         //         {
-        //             title: 'Vue知识',
-        //             children: []
+        //             title: 'Vue',
+        //             collapsable: false,
+        //             children: [
+        //                 { title: 'Vue基础', path: '/vue/' },
+        //                 { title: 'Vue基础', path: '/vue/Vue基础/' },
+        //             ]
         //         }
         //     ],
-        //     '/js/': [
-        //         '/js/',
-        //         {
-        //             title: 'JS知识',
-        //             children: []
-        //         }
-        //     ]
-        // },
-
-        sidebar: [
-            '/vue/',
-            '/js/'
-        ]
+        // }
+        sidebar: 'auto'
     }
 }
